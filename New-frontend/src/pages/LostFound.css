@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.lf-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.lf-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.lf-title {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.lf-subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #6b7280;
+}
+
+.lf-primary-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 0;
+  background: linear-gradient(335deg, #6d6d6d, #000);;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.lf-primary-btn:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 25px rgba(42, 102, 230, 0.35);
+}
+
+.lf-search-row {
+  margin-top: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+.lf-search-box {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  background: white;
+  border: 1px solid #e5e7eb;
+  padding: 14px 18px;
+  border-radius: 18px;
+}
+
+.lf-search-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 15px;
+}
+
+.lf-filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 22px;
+  border-radius: 18px;
+  border: 1px solid #e5e7eb;
+  background: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.lf-grid {
+  margin-top: 60px;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.lf-empty {
+  margin-top: 80px;
+  text-align: center;
+  color: #6b7280;
+}
+
+.lf-empty h3 {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.subscribe-box {
+  margin-top: 120px;
+  background: #111827;
+  color: white;
+  padding: 60px;
+  border-radius: 48px;
+  text-align: center;
+}
+
+.subscribe-box p {
+  margin-top: 12px;
+  color: #9ca3af;
+}
+
+.subscribe-form {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.subscribe-form input {
+  padding: 14px 20px;
+  border-radius: 18px;
+  border: none;
+  min-width: 260px;
+}
+
+.subscribe-form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.tabs {
+  display: flex;
+  background: #f3f4f6;
+  padding: 6px;
+  border-radius: 18px;
+}
+
+.tab-btn {
+  border: none;
+  background: transparent;
+  padding: 10px 18px;
+  border-radius: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.tab-btn.active {
+  background: white;
+  color: gold;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.radius-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.radius-btn {
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+  background: #f9fafb;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.radius-btn.active {  
+  background: #111827;
+  color: white;
+}
+
+
+@media (max-width: 640px) {
+  .lf-container{
+    padding: 30px 12px;
+  }
+  .lf-search-box {
+    flex: unset;
+    width: 100%;
+  }
+  .lf-grid {  
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+ 
+}
+@media (max-width: 600px) {
+  .lf-grid {
+    gap: 8px;
+  }
+ 
+}

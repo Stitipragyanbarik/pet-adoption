@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.favorites-container {
+  padding: 40px;
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.favorites-header {
+  margin-bottom: 30px;
+}
+
+.favorites-header h1 {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.favorites-header p {
+  color: #6b7280;
+  margin-top: 6px;
+}
+
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.favorites-empty {
+  text-align: center;
+  margin-top: 80px;
+  color: #6b7280;
+}
+
+.favorites-empty h3 {
+  margin-top: 12px;
+  font-size: 22px;
+  color: #111827;
+}
+
+.favorites-btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 10px 20px;
+  background: #111827;
+  color: white;
+  border-radius: 999px;
+  text-decoration: none;
+}

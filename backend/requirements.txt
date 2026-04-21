@@ -1,0 +1,12 @@
+Django==6.0
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+django-cors-headers
+Pillow
+pandas
+numpy
+scikit-learn
+joblib
+opencv-python
+scikit-image
