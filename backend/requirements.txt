@@ -14,3 +14,6 @@ gunicorn
 dj-database-url
 psycopg[binary]
 whitenoise
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
