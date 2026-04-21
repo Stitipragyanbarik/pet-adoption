@@ -147,6 +147,6 @@ STATIC_URL = 'static/'
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
 
-GOOGLE_MAPS_API_KEY = "AIzaSyBkhh1rpYJHphNQcwqyJhmSaGvKcihC7tY"
+# GOOGLE_MAPS_API_KEY = "AIzaSyBkhh1rpYJHphNQcwqyJhmSaGvKcihC7tY"
 
-GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
+# GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
