@@ -10,3 +10,7 @@ scikit-learn
 joblib
 opencv-python
 scikit-image
+gunicorn
+dj-database-url
+psycopg[binary]
+whitenoise
