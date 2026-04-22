@@ -2,11 +2,8 @@ import { useEffect, useState } from "react";
 import { MapPin } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { API_BASE_URL, buildMediaUrl } from "../../config/api";
 import "./AdoptablePetSlider.css";
-
-const API_URL =
-  process.env.REACT_APP_API_URL || "http://localhost:8000/api";
-const MEDIA_HOST = "http://localhost:8000";
 
 const AdoptablePetSlider = () => {
   const navigate = useNavigate();
@@ -16,7 +13,7 @@ const AdoptablePetSlider = () => {
   useEffect(() => {
     const fetchPets = async () => {
       try {
-        const res = await axios.get(`${API_URL}/pets/adoption/`);
+        const res = await axios.get(`${API_BASE_URL}/pets/adoption/`);
         setPets(res.data || []);
       } catch (error) {
         console.error(
@@ -45,7 +42,7 @@ const AdoptablePetSlider = () => {
   const pet = pets[index];
 
   const imageUrl = pet.images?.[0]?.image
-    ? `${MEDIA_HOST}${pet.images[0].image}`
+    ? buildMediaUrl(pet.images[0].image)
     : "/images/no-pet.png";
 
   return (

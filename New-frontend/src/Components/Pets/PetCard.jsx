@@ -3,9 +3,8 @@ import { motion } from "framer-motion";
 import { Heart, Calendar, ArrowRight, MapPin } from "lucide-react";
 import { useFavorites } from "../../contexts/FavoritesContext";
 import { useAuth } from "../../contexts/AuthContext";
+import { buildMediaUrl } from "../../config/api";
 import "./PetCard.css";
-
-const API_HOST = "http://localhost:8000";
 const FALLBACK_IMAGE =
   "https://via.placeholder.com/400x300?text=No+Image";
 
@@ -28,7 +27,7 @@ const PetCard = ({ pet, variant = "adoption", distanceInfo }) => {
   const imageUrl = imagePath
     ? imagePath.startsWith("http")
       ? imagePath
-      : `${API_HOST}${imagePath}`
+      : buildMediaUrl(imagePath)
     : FALLBACK_IMAGE;
 
   const favorite = !isLostFound && isFavorite(pet.id);

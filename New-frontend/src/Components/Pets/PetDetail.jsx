@@ -5,9 +5,7 @@ import axios from "axios";
 import PetImageCarousel from "../../pages/PetImageCarousel";
 import "./PetDetail.css";
 import { useAuth } from "../../contexts/AuthContext";
-
-const API_BASE = "http://localhost:8000/api";
-const MEDIA_HOST = "http://localhost:8000";
+import { API_BASE_URL, buildMediaUrl } from "../../config/api";
 
 const PetDetail = () => {
   const { id } = useParams();
@@ -37,8 +35,8 @@ const PetDetail = () => {
       }
 
       const url = isLostFound
-        ? `${API_BASE}/pets/reports/${id}/`
-        : `${API_BASE}/pets/adoption/${id}/`;
+        ? `${API_BASE_URL}/pets/reports/${id}/`
+        : `${API_BASE_URL}/pets/adoption/${id}/`;
 
       const res = await axios.get(url, {
         headers: {
@@ -65,7 +63,7 @@ const PetDetail = () => {
     pet.images?.map(img =>
       img.image.startsWith("http")
         ? img.image
-        : `${MEDIA_HOST}${img.image}`
+        : buildMediaUrl(img.image)
     ) || [];
 
   return (

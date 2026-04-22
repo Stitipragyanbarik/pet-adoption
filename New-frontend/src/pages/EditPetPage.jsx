@@ -2,10 +2,9 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useAuth } from "../contexts/AuthContext";
+import { API_BASE_URL } from "../config/api";
 import "./EditPetPage.css";
 
-const API_URL =
-  process.env.REACT_APP_API_URL || "http://localhost:8000/api";
 
 const EditPetPage = () => {
   const { id } = useParams();
@@ -29,7 +28,7 @@ const EditPetPage = () => {
     const fetchPet = async () => {
       try {
         const res = await axios.get(
-          `${API_URL}/pets/${id}/`,
+          `${API_BASE_URL}/pets/adoption/${id}/`,
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -68,7 +67,7 @@ const EditPetPage = () => {
 
     try {
       await axios.put(
-        `${API_URL}/pets/${id}/update/`,
+        `${API_BASE_URL}/pets/adoption/${id}/update/`,
         formData,
         {
           headers: {

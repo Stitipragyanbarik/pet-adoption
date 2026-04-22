@@ -5,9 +5,10 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import PetCard from "../Components/Pets/PetCard";
 import { useAuth } from "../contexts/AuthContext";
+import { API_BASE_URL } from "../config/api";
 import "./FavoritesPage.css";
 
-const API_URL = "http://localhost:8000/api/pets/favorites/";
+const API_URL = `${API_BASE_URL}/pets/favorites/`;
 
 const FavoritesPage = () => {
   const { token } = useAuth();

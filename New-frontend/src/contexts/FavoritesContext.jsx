@@ -1,11 +1,12 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { useAuth } from "./AuthContext";
+import { API_BASE_URL } from "../config/api";
 
 const FavoritesContext = createContext();
 export const useFavorites = () => useContext(FavoritesContext);
 
-const API_URL = "http://localhost:8000/api/pets/favorites/";
+const API_URL = `${API_BASE_URL}/pets/favorites/`;
 
 export const FavoritesProvider = ({ children }) => {
   const { user, loading } = useAuth();

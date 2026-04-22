@@ -1,16 +1,15 @@
 import axios from "axios";
-
-const BASE_URL = "http://localhost:8000/api";
+import { API_BASE_URL } from "../config/api";
 
 const api = axios.create({
-  baseURL: BASE_URL,
+  baseURL: API_BASE_URL,
   headers: {
     "Content-Type": "application/json",
   },
 });
 
 api.interceptors.request.use((config) => {
-  const token = localStorage.getItem("token");
+  const token = localStorage.getItem("access_token");
   if (token) config.headers.Authorization = `Bearer ${token}`;
 
   if (config.data instanceof FormData) {
@@ -33,12 +32,12 @@ api.interceptors.response.use(
 
         if (!refreshToken) throw new Error("No refresh token found");
 
-        const res = await axios.post(`${BASE_URL}/auth/token/refresh/`, {
+        const res = await axios.post(`${API_BASE_URL}/auth/token/refresh/`, {
           refresh: refreshToken,
         });
 
         const newAccess = res.data.access;
-        localStorage.setItem("token", newAccess);
+        localStorage.setItem("access_token", newAccess);
 
         originalRequest.headers.Authorization = `Bearer ${newAccess}`;
 
@@ -58,11 +57,11 @@ api.interceptors.response.use(
 );
 
 function logoutAndRedirect() {
-  localStorage.removeItem("token");
+  localStorage.removeItem("access_token");
   localStorage.removeItem("refresh_token");
   localStorage.removeItem("user");
   window.location.href = "/login";
 }
 
 export default api;
-export { BASE_URL };
+export { API_BASE_URL as BASE_URL };

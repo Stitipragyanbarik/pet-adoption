@@ -1,9 +1,8 @@
 import axios from "axios";
-
-const BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:8000/api";
+import { API_BASE_URL } from "../config/api";
 
 const apiClient = axios.create({
-  baseURL: BASE_URL,
+  baseURL: API_BASE_URL,
   headers: {
     "Content-Type": "application/json",
   },
@@ -43,12 +42,11 @@ apiClient.interceptors.response.use(
 
         if (refreshToken) {
           const refreshResponse = await axios.post(
-            `${BASE_URL}/auth/token/refresh/`,
+            `${API_BASE_URL}/auth/token/refresh/`,
             { refresh: refreshToken }
           );
 
           const newAccessToken = refreshResponse.data.access;
-          localStorage.setItem("token", newAccessToken);
           localStorage.setItem("access_token", newAccessToken);
 
           originalRequest.headers.Authorization = `Bearer ${newAccessToken}`;
@@ -62,7 +60,6 @@ apiClient.interceptors.response.use(
     if (error.response?.status === 401) {
       console.warn("Unauthorized: clearing session and redirecting to login");
 
-      localStorage.removeItem("token");
       localStorage.removeItem("access_token");
       localStorage.removeItem("refresh_token");
       localStorage.removeItem("user");

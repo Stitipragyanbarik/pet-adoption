@@ -2,9 +2,8 @@ import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useAuth } from "../contexts/AuthContext";
+import { API_BASE_URL } from "../config/api";
 import "./AdoptionRequest.css";
-
-const API_BASE = "http://localhost:8000/api";
 
 const AdoptionRequest = () => {
   const { id } = useParams();
@@ -47,7 +46,7 @@ const AdoptionRequest = () => {
       setLoading(true);
 
       await axios.post(
-  `${API_BASE}/pets/adoption/${id}/request/`,
+  `${API_BASE_URL}/pets/adoption/${id}/request/`,
   { message },
   {
     headers: {

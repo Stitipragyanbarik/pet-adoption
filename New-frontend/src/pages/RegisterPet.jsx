@@ -4,9 +4,9 @@ import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 import { useAuth } from "../contexts/AuthContext";
+import { API_BASE_URL } from "../config/api";
 import "./RegisterPet.css";
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8000/api";
 
 const RegisterPetPage = () => {
   const navigate = useNavigate();
@@ -96,7 +96,7 @@ const handleSubmit = async (e) => {
     images.forEach(img => payload.append("images", img));
 
     await axios.post(
-      `${API_URL}/pets/adoption/create/`,
+      `${API_BASE_URL}/pets/adoption/create/`,
       payload,
       { headers: { Authorization: `Bearer ${token}` } }
     );

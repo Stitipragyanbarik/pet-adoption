@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Camera, ArrowLeft } from "lucide-react";
 import { useAuth } from "../contexts/AuthContext";
+import { API_BASE_URL } from "../config/api";
 import "./SettingsPage.css";
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8000/api";
 
 export default function SettingsPage() {
   const navigate = useNavigate();
@@ -30,7 +30,7 @@ export default function SettingsPage() {
     try {
       setLoading(true);
       const res = await axios.put(
-        `${API_URL}/users/profile/`,
+        `${API_BASE_URL}/users/profile/`,
         profile,
         { headers: { Authorization: `Bearer ${localStorage.getItem("access_token")}` } }
       );
@@ -48,7 +48,7 @@ export default function SettingsPage() {
   formData.append("avatar", file);
 
   const res = await axios.post(
-    `${API_URL}/users/avatar/`,
+    `${API_BASE_URL}/users/avatar/`,
     formData,
     {
       headers: {
@@ -73,7 +73,7 @@ export default function SettingsPage() {
     try {
       setLoading(true);
       await axios.post(
-        `${API_URL}/users/change-password/`,
+        `${API_BASE_URL}/users/change-password/`,
         {
           current_password: password.current,
           new_password: password.new
@@ -95,7 +95,7 @@ export default function SettingsPage() {
   }
 
   try {
-    await axios.delete(`${API_URL}/users/delete-account/`, {
+    await axios.delete(`${API_BASE_URL}/users/delete-account/`, {
       headers: {
         Authorization: `Bearer ${localStorage.getItem("access_token")}`,
       },

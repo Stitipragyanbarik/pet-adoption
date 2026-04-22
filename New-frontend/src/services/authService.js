@@ -1,14 +1,11 @@
 import axios from "axios";
-
-const API_URL =
-  process.env.REACT_APP_API_URL || "http://127.0.0.1:8000/api";
+import { API_BASE_URL } from "../config/api";
 
 const login = async ({ username, password }) => {
-  const response = await axios.post(`${API_URL}/users/login/`, {
+  const response = await axios.post(`${API_BASE_URL}/users/login/`, {
     username,
     password,
   });
-console.log("LOGIN PAYLOAD:", { username, password });
 
   const { access, refresh, user } = response.data;
 
@@ -22,7 +19,7 @@ console.log("LOGIN PAYLOAD:", { username, password });
 
 const register = async (userData) => {
   const res = await axios.post(
-    `${API_URL}/users/register/`,
+    `${API_BASE_URL}/users/register/`,
     {
       username: userData.username,
       email: userData.email,

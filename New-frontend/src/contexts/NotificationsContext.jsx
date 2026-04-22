@@ -1,13 +1,11 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import axios from "axios";
 import { useAuth } from "./AuthContext";
+import { API_BASE_URL } from "../config/api";
 
 const NotificationsContext = createContext();
 
 export const useNotifications = () => useContext(NotificationsContext);
-
-const API_URL =
-  process.env.REACT_APP_API_URL || "http://localhost:8000/api";
 
 export const NotificationsProvider = ({ children }) => {
   const { user, token, logout } = useAuth();
@@ -28,7 +26,7 @@ export const NotificationsProvider = ({ children }) => {
 
     try {
       const res = await axios.get(
-        `${API_URL}/notifications/`,
+        `${API_BASE_URL}/notifications/`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -59,7 +57,7 @@ export const NotificationsProvider = ({ children }) => {
 
     try {
       await axios.patch(
-        `${API_URL}/notifications/${id}/read/`,
+        `${API_BASE_URL}/notifications/${id}/read/`,
         {},
         {
           headers: {
@@ -90,7 +88,7 @@ export const NotificationsProvider = ({ children }) => {
 
     try {
       await axios.patch(
-        `${API_URL}/notifications/read-all/`,
+        `${API_BASE_URL}/notifications/read-all/`,
         {},
         {
           headers: {

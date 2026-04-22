@@ -2,9 +2,8 @@ import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { useAuth } from "../contexts/AuthContext";
+import { API_BASE_URL } from "../config/api";
 import "./AdoptionRequest.css";
-
-const API_BASE = "http://localhost:8000/api";
 
 const LostFoundResponse = () => {
   const { id } = useParams();
@@ -32,7 +31,7 @@ const LostFoundResponse = () => {
       setSubmitting(true);
 
       await axios.post(
-        `${API_BASE}/pets/reports/${id}/respond/`,
+        `${API_BASE_URL}/pets/reports/${id}/respond/`,
         { message },
         {
           headers: {

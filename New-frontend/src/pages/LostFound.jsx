@@ -5,10 +5,9 @@ import { useEffect, useMemo, useState } from "react";
 import axios from "axios";
 import PetCard from "../Components/Pets/PetCard";
 import useDistanceMatrix from "../hooks/useDistanceMatrix";
+import { API_BASE_URL } from "../config/api";
 import "./LostFound.css";
 
-const API_URL =
-  process.env.REACT_APP_API_URL || "http://localhost:8000/api";
 
 const LostFoundPage = () => {
   const navigate = useNavigate();
@@ -23,7 +22,7 @@ const LostFoundPage = () => {
     const fetchActiveReports = async () => {
       try {
         const res = await axios.get(
-          `${API_URL}/pets/reports/active/`
+          `${API_BASE_URL}/pets/reports/active/`
         );
         setReports(res.data || []);
       } catch (err) {

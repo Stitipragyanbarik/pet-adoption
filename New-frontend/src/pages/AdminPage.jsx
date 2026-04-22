@@ -2,9 +2,9 @@ import { useNavigate } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useAuth } from "../contexts/AuthContext";
+import { API_BASE_URL, buildMediaUrl } from "../config/api";
 import "./AdminPage.css";
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8000/api";
 
 const AdminReports = () => {
   const navigate = useNavigate();
@@ -28,7 +28,7 @@ const AdminReports = () => {
     setError("");
 
     try {
-      const res = await axios.get(`${API_URL}/pets/reports/admin/`, {
+      const res = await axios.get(`${API_BASE_URL}/pets/reports/admin/`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -45,7 +45,7 @@ const AdminReports = () => {
   const updateStatus = async (reportId, status) => {
     try {
       await axios.patch(
-        `${API_URL}/pets/reports/${reportId}/update-status/`,
+        `${API_BASE_URL}/pets/reports/${reportId}/update-status/`,
         { status },
         {
           headers: {
@@ -68,7 +68,7 @@ const AdminReports = () => {
   const fetchAIMatches = async () => {
     setAiLoading(true);
     try {
-      const res = await axios.get(`${API_URL}/ai/matches/`, {
+      const res = await axios.get(`${API_BASE_URL}/ai/matches/`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -83,7 +83,7 @@ const AdminReports = () => {
 
   const confirmMatch = async (matchId) => {
     await axios.post(
-      `${API_URL}/ai/matches/${matchId}/confirm/`,
+      `${API_BASE_URL}/ai/matches/${matchId}/confirm/`,
       {},
       {
         headers: {
@@ -96,7 +96,7 @@ const AdminReports = () => {
 
   const notifyMatch = async (matchId) => {
     await axios.post(
-      `${API_URL}/ai/matches/${matchId}/notify/`,
+      `${API_BASE_URL}/ai/matches/${matchId}/notify/`,
       {},
       {
         headers: {
@@ -188,7 +188,7 @@ const AdminReports = () => {
                   <div className="admin-image">
                     {report.images?.length > 0 ? (
                       <img
-                        src={`http://localhost:8000${report.images[0].image}`}
+                        src={buildMediaUrl(report.images[0].image)}
                         alt="Pet"
                         className="admin-pet-image"
                       />
@@ -245,7 +245,7 @@ const AdminReports = () => {
         setAiRunning(true);
 
         await axios.post(
-          `${API_URL}/ai/run/`,
+          `${API_BASE_URL}/ai/run/`,
           {},
           {
             headers: {
@@ -289,14 +289,14 @@ const AdminReports = () => {
           <div key={match.id} className="admin-card">
             <div className="admin-image">
               <img
-                src={`http://localhost:8000${match.lost_report.images[0]?.image}`}
+                src={buildMediaUrl(match.lost_report.images[0]?.image)}
                 alt="Lost"
               />
             </div>
 
             <div className="admin-image">
               <img
-                src={`http://localhost:8000${match.found_report.images[0]?.image}`}
+                src={buildMediaUrl(match.found_report.images[0]?.image)}
                 alt="Found"
               />
             </div>

@@ -7,10 +7,9 @@ import { Heart, MapPin, Plus, User, Settings, LogOut,
 import axios from "axios";
 import { useAuth } from "../contexts/AuthContext";
 import { useFavorites } from "../contexts/FavoritesContext";
+import { API_BASE_URL, buildMediaUrl } from "../config/api";
 import "./UserDashboard.css";
- 
-const API_URL =
-  process.env.REACT_APP_API_URL || "http://localhost:8000/api";
+
 
 const UserDashboard = () => {
   const navigate = useNavigate();
@@ -48,10 +47,10 @@ const UserDashboard = () => {
     };
     
     const [petsRes, reportsRes, requestsRes, responsesRes] = await Promise.all([
-      axios.get(`${API_URL}/pets/user/${user.id}/pets/`, config),
-      axios.get(`${API_URL}/pets/reports/user/${user.id}/`, config),
-      axios.get(`${API_URL}/pets/adoption/requests/owner/`, config),
-      axios.get(`${API_URL}/pets/reports/responses/owner/`, config),
+      axios.get(`${API_BASE_URL}/pets/user/${user.id}/pets/`, config),
+      axios.get(`${API_BASE_URL}/pets/reports/user/${user.id}/`, config),
+      axios.get(`${API_BASE_URL}/pets/adoption/requests/owner/`, config),
+      axios.get(`${API_BASE_URL}/pets/reports/responses/owner/`, config),
     ]);
     
     setMyPets(petsRes.data || []);
@@ -74,7 +73,7 @@ const handleResponseReject = async (id) => {
     const token = localStorage.getItem("access_token");
 
     await axios.patch(
-      `${API_URL}/pets/reports/response/${id}/update/`,
+      `${API_BASE_URL}/pets/reports/response/${id}/update/`,
       { status: "rejected" },
       {
         headers: {
@@ -109,7 +108,7 @@ const handleRequest = async (id, status) => {
     };
 
     await axios.patch(
-      `${API_URL}/pets/adoption/request/${id}/update/`,
+      `${API_BASE_URL}/pets/adoption/request/${id}/update/`,
       { status },
       config
     );
@@ -134,7 +133,7 @@ const toggleGroup = (key) => {
     const token = localStorage.getItem("access_token");
 
     await axios.delete(
-      `${API_URL}/pets/adoption/${petId}/delete/`,
+      `${API_BASE_URL}/pets/adoption/${petId}/delete/`,
       {
         headers: {
           Authorization: `Bearer ${token}`,
@@ -176,7 +175,7 @@ const groupedResponses = responses.reduce((acc, r) => {
                src={
                  user.avatar.startsWith("http")
                    ? user.avatar
-                   : `http://localhost:8000${user.avatar}`
+                   : buildMediaUrl(user.avatar)
                }
                alt="User Avatar"
                className="dashboard-avatar-img"
@@ -217,7 +216,7 @@ const groupedResponses = responses.reduce((acc, r) => {
          {myPets.map((pet) => (
            <div key={pet.id} className="pet-card">
              <img src={ pet.images?.[0]?.image
-             ? `http://localhost:8000${pet.images[0].image}`
+             ? buildMediaUrl(pet.images[0].image)
              : "/images/no-pet.png"}alt={pet.name}/>
              <div className="card-body">
                <h3>{pet.name}</h3>
@@ -258,7 +257,7 @@ const groupedResponses = responses.reduce((acc, r) => {
           myReports.map((report) => (
             <div key={report.id} className="report-card">
               <img src={ report.images?.[0]?.image
-              ? `http://localhost:8000${report.images[0].image}`
+              ? buildMediaUrl(report.images[0].image)
               : "/images/no-pet.png"} alt="report"/>
 
               <div className="report-info">

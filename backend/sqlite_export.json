@@ -1,0 +1,3449 @@
+[
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$RQHyxOmskJTY8Wxc5ZoVv4$c3xYheP69EnuPvSldqSVCxz6C3UCffk2cQS/EdOPUXo=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin123@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-01-01T20:43:16.085Z",
+    "phone": "",
+    "bio": "",
+    "avatar": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$qbzPnER52eO0vujK2DR0hx$Vi0PI5sdykyGM4NRwOvDpjldXVVUa4RsQcyfPbzKGao=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "dhanush",
+    "first_name": "",
+    "last_name": "",
+    "email": "arutladhanush1610@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-01-01T21:20:02.155Z",
+    "phone": "",
+    "bio": "I Love Animals and Nature.",
+    "avatar": "avatars/123.jpeg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$G7sjv161WDs8puz5mUH5Qy$mBG7i2WU6HxqfX0xSeJmbgoM2egw2KkpQBDkk0HavSA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "User1",
+    "first_name": "",
+    "last_name": "",
+    "email": "user@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-01-02T09:01:00.212Z",
+    "phone": "",
+    "bio": "",
+    "avatar": "avatars/pet3.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$1yJifTndjdxR7laoe9ZIcm$39Q7RJ0FrN6fTeKFO+EyxtktTZ8hc5QDSPA/Bver2Vs=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "User2",
+    "first_name": "",
+    "last_name": "",
+    "email": "user2@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-01-04T09:15:41.258Z",
+    "phone": "",
+    "bio": "",
+    "avatar": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$qEJaWVSbWjxglYAeR6w2Jl$eVrAr2DP4ZiS3GOE3FaBrIKeQZBFHFzuQURnGOFZw4g=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "User3",
+    "first_name": "",
+    "last_name": "",
+    "email": "user3@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-01-04T10:15:36.737Z",
+    "phone": "",
+    "bio": "",
+    "avatar": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$qmGSw16d484EGAaX8rXcr7$CxjCRrRVpkydbwsj0jP+oATCQ1rXTOU+t3HvvlAWlKc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Nihitha",
+    "first_name": "",
+    "last_name": "",
+    "email": "girinihithadornadula@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-01-21T13:05:41.563Z",
+    "phone": "",
+    "bio": "",
+    "avatar": "avatars/lab1.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$PA9U2u15BfvRyXJEVjiJdF$r7sgAWMoRTO6iltH9S98rMZ4Y6zjXvVaT03zTvJ3ufY=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "Stiti",
+    "first_name": "Stitipragyan",
+    "last_name": "Barik",
+    "email": "stitipragyanbarik@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-02-23T17:21:24.128Z",
+    "phone": "",
+    "bio": "currently persuing B.Tech",
+    "avatar": "avatars/propic_doABDcP.jpeg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$RoR8sd2ExD9OYqi9DwHvSr$CCWKTfffORqrdOUkvLxzukRDOFvIWPG1o1y83MZWYQM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "ritu",
+    "first_name": "",
+    "last_name": "",
+    "email": "ritu@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-28T18:12:31.746Z",
+    "phone": "1234567891",
+    "bio": "",
+    "avatar": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$NrQH4GMILPF6kUlREkCIBa$JZG2vQ+PiOfe2JO9BGiv275+7UBrFNBY7YTRHE5s2rQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "sparkyy",
+    "first_name": "",
+    "last_name": "",
+    "email": "sparky@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-04-09T16:55:05.844Z",
+    "phone": "4545454545",
+    "bio": "",
+    "avatar": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "pets.pet",
+  "pk": 3,
+  "fields": {
+    "owner": 2,
+    "name": "Daisy",
+    "type": "dog",
+    "breed": "Beagle",
+    "age": "young",
+    "location": "hyderabad",
+    "lat": null,
+    "lng": null,
+    "vaccination_status": "fully",
+    "description": "Friendly, playful, and full of affection, this young dog is looking for a loving forever home.",
+    "is_active": true,
+    "created_at": "2026-01-04T08:18:32.410Z"
+  }
+},
+{
+  "model": "pets.pet",
+  "pk": 4,
+  "fields": {
+    "owner": 2,
+    "name": "Ginger",
+    "type": "cat",
+    "breed": "orange tabby",
+    "age": "adult",
+    "location": "Bangalore",
+    "lat": null,
+    "lng": null,
+    "vaccination_status": "partially",
+    "description": "Calm, affectionate, and independent, this cat is looking for a safe and loving home. They enjoy quiet companionship, gentle play, and cozy naps in sunny spots.",
+    "is_active": true,
+    "created_at": "2026-01-04T08:22:58.512Z"
+  }
+},
+{
+  "model": "pets.pet",
+  "pk": 5,
+  "fields": {
+    "owner": 3,
+    "name": "Oreo",
+    "type": "cat",
+    "breed": "American Wirehair",
+    "age": "young",
+    "location": "Hyderabad",
+    "lat": null,
+    "lng": null,
+    "vaccination_status": "",
+    "description": "A sweet and curious young cat with a striking black-and-white coat and bright, expressive eyes. This cat appears calm, friendly, and comfortable around people, with a gentle and attentive nature",
+    "is_active": true,
+    "created_at": "2026-01-04T09:08:05.350Z"
+  }
+},
+{
+  "model": "pets.pet",
+  "pk": 6,
+  "fields": {
+    "owner": 4,
+    "name": "Bunny",
+    "type": "rabbit",
+    "breed": "Gotland Rabbit",
+    "age": "baby",
+    "location": "Hyderabad",
+    "lat": null,
+    "lng": null,
+    "vaccination_status": "not",
+    "description": "A gentle and adorable rabbit with soft light-brown fur and long upright ears. This bunny appears calm, curious, and well-adjusted, enjoying quiet surroundings and gentle interaction. With bright, alert eyes and a relaxed posture, they would make a wonderful companion for a caring home that can provide patience, space, and affection. Ideal for individuals or families looking for a peaceful and lovable pet.",
+    "is_active": true,
+    "created_at": "2026-01-04T09:20:16.307Z"
+  }
+},
+{
+  "model": "pets.pet",
+  "pk": 7,
+  "fields": {
+    "owner": 4,
+    "name": "Goldie",
+    "type": "rabbit",
+    "breed": "goldfish",
+    "age": "young",
+    "location": "Chennai",
+    "lat": null,
+    "lng": null,
+    "vaccination_status": "unknown",
+    "description": "A stunning and graceful goldfish with vibrant orange and golden hues and flowing fins. This fish appears healthy, active, and elegant in movement, making it a beautiful centerpiece for any well-maintained aquarium. Calm and easy to care for with proper tank conditions, this goldfish is ideal for both beginners and experienced fish keepers looking for a peaceful and visually striking pet.",
+    "is_active": true,
+    "created_at": "2026-01-04T10:08:46.608Z"
+  }
+},
+{
+  "model": "pets.pet",
+  "pk": 8,
+  "fields": {
+    "owner": 5,
+    "name": "Pico",
+    "type": "bird",
+    "breed": "Parrot",
+    "age": "adult",
+    "location": "Pune",
+    "lat": null,
+    "lng": null,
+    "vaccination_status": "partially",
+    "description": "A beautiful, intelligent parrot with bright green feathers and a striking red beak. This bird appears calm, alert, and well-acclimated to its surroundings. Curious by nature and observant, they enjoy perching, gentle interaction, and a stimulating environment. With proper care, socialization, and enrichment, this parrot would make a rewarding companion for an attentive and experienced—or well-prepared—pet parent.",
+    "is_active": true,
+    "created_at": "2026-01-04T10:19:00.007Z"
+  }
+},
+{
+  "model": "pets.pet",
+  "pk": 9,
+  "fields": {
+    "owner": 5,
+    "name": "Coco",
+    "type": "dog",
+    "breed": "Toy Poodle",
+    "age": "baby",
+    "location": "Pune",
+    "lat": null,
+    "lng": null,
+    "vaccination_status": "fully",
+    "description": "A cheerful and affectionate small dog with a soft, curly coat and bright, expressive eyes. This dog appears playful, friendly, and very people-oriented, enjoying attention, interaction, and gentle playtime. Energetic yet easy to manage, they would be a great fit for families, singles, or seniors looking for a loving companion who brings joy and warmth to everyday life.",
+    "is_active": true,
+    "created_at": "2026-01-04T10:26:08.409Z"
+  }
+},
+{
+  "model": "pets.pet",
+  "pk": 10,
+  "fields": {
+    "owner": 2,
+    "name": "Titan",
+    "type": "dog",
+    "breed": "Pit Bull Terrier",
+    "age": "adult",
+    "location": "Delhi",
+    "lat": null,
+    "lng": null,
+    "vaccination_status": "fully",
+    "description": "A strong, confident, and loyal dog with a well-built physique and a calm, attentive expression. This dog appears intelligent, steady, and people-focused, forming deep bonds with those they trust. With proper training, socialization, and regular exercise, they would thrive in a responsible home that can provide structure, affection, and leadership. Ideal for an experienced pet parent looking for a devoted and protective companion.",
+    "is_active": true,
+    "created_at": "2026-01-04T10:30:00.255Z"
+  }
+},
+{
+  "model": "pets.pet",
+  "pk": 11,
+  "fields": {
+    "owner": 2,
+    "name": "rocky",
+    "type": "dog",
+    "breed": "poodle",
+    "age": "young",
+    "location": "Current location",
+    "lat": null,
+    "lng": null,
+    "vaccination_status": "fully",
+    "description": "brown",
+    "is_active": true,
+    "created_at": "2026-01-12T17:28:32.956Z"
+  }
+},
+{
+  "model": "pets.pet",
+  "pk": 19,
+  "fields": {
+    "owner": 3,
+    "name": "rocky",
+    "type": "dog",
+    "breed": "Jack Russell Terrier",
+    "age": "young",
+    "location": "Current location",
+    "lat": null,
+    "lng": null,
+    "vaccination_status": "fully",
+    "description": "playfull dog",
+    "is_active": true,
+    "created_at": "2026-01-21T12:45:37.197Z"
+  }
+},
+{
+  "model": "pets.pet",
+  "pk": 22,
+  "fields": {
+    "owner": 6,
+    "name": "Charlie",
+    "type": "dog",
+    "breed": "labrador",
+    "age": "young",
+    "location": "Hyderabad, Dilshuknagar",
+    "lat": null,
+    "lng": null,
+    "vaccination_status": "fully",
+    "description": "Meet this adorable Labrador Retriever puppy, a bundle of joy with a heart full of love. With a soft golden coat, bright expressive eyes, and a constantly wagging tail, this little one is sure to melt hearts at first sight.",
+    "is_active": true,
+    "created_at": "2026-01-21T13:36:22.153Z"
+  }
+},
+{
+  "model": "pets.pet",
+  "pk": 23,
+  "fields": {
+    "owner": 7,
+    "name": "kitu",
+    "type": "dog",
+    "breed": "Husky",
+    "age": "adult",
+    "location": "Bhubaneswar",
+    "lat": null,
+    "lng": null,
+    "vaccination_status": "fully",
+    "description": "very kind hearted",
+    "is_active": true,
+    "created_at": "2026-02-23T17:36:01.532Z"
+  }
+},
+{
+  "model": "pets.pet",
+  "pk": 24,
+  "fields": {
+    "owner": 7,
+    "name": "piku",
+    "type": "cat",
+    "breed": "indian cat",
+    "age": "baby",
+    "location": "Bhubaneswar",
+    "lat": null,
+    "lng": null,
+    "vaccination_status": "unknown",
+    "description": "cute cat",
+    "is_active": true,
+    "created_at": "2026-03-29T17:26:36.103Z"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 3,
+  "fields": {
+    "pet": 3,
+    "image": "pets/pet1.png"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 4,
+  "fields": {
+    "pet": 3,
+    "image": "pets/pet22.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 5,
+  "fields": {
+    "pet": 3,
+    "image": "pets/pet12.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 6,
+  "fields": {
+    "pet": 4,
+    "image": "pets/cpet13.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 7,
+  "fields": {
+    "pet": 4,
+    "image": "pets/cpet12.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 8,
+  "fields": {
+    "pet": 4,
+    "image": "pets/cpet1.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 9,
+  "fields": {
+    "pet": 5,
+    "image": "pets/cpet2.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 10,
+  "fields": {
+    "pet": 5,
+    "image": "pets/cpet22.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 11,
+  "fields": {
+    "pet": 6,
+    "image": "pets/rpet1.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 12,
+  "fields": {
+    "pet": 6,
+    "image": "pets/rpet12.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 13,
+  "fields": {
+    "pet": 7,
+    "image": "pets/fpet1.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 14,
+  "fields": {
+    "pet": 7,
+    "image": "pets/fpet12.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 15,
+  "fields": {
+    "pet": 8,
+    "image": "pets/ppet21.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 16,
+  "fields": {
+    "pet": 8,
+    "image": "pets/ppet22.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 17,
+  "fields": {
+    "pet": 9,
+    "image": "pets/pet41.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 18,
+  "fields": {
+    "pet": 10,
+    "image": "pets/pet51.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 19,
+  "fields": {
+    "pet": 10,
+    "image": "pets/pet52.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 20,
+  "fields": {
+    "pet": 11,
+    "image": "pets/dog1_AySTq0j.png"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 28,
+  "fields": {
+    "pet": 19,
+    "image": "pets/pet3_ZHLH5yF.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 33,
+  "fields": {
+    "pet": 22,
+    "image": "pets/Stylish__Durable_Stainless_Steel_Dog_Chain_for_Large_Dogs_PgrXh0a.jpg"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 34,
+  "fields": {
+    "pet": 23,
+    "image": "pets/Siberian-Husky-dog.webp"
+  }
+},
+{
+  "model": "pets.petimage",
+  "pk": 35,
+  "fields": {
+    "pet": 24,
+    "image": "pets/Abyssinian_116.jpg"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 1,
+  "fields": {
+    "pet": 9,
+    "requester": 2,
+    "message": "i want to adopt this pet",
+    "status": "pending",
+    "created_at": "2026-01-05T09:54:02.771Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 12,
+  "fields": {
+    "pet": 9,
+    "requester": 1,
+    "message": "adoption",
+    "status": "pending",
+    "created_at": "2026-01-08T12:44:21.319Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 18,
+  "fields": {
+    "pet": 22,
+    "requester": 2,
+    "message": "I want to adopt this Pet.",
+    "status": "pending",
+    "created_at": "2026-01-22T11:24:36.152Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 21,
+  "fields": {
+    "pet": 3,
+    "requester": 6,
+    "message": "I want to adopt this pet",
+    "status": "pending",
+    "created_at": "2026-01-22T11:40:46.302Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 22,
+  "fields": {
+    "pet": 4,
+    "requester": 3,
+    "message": "I want to adopt this cat.",
+    "status": "pending",
+    "created_at": "2026-01-22T11:41:50.393Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 24,
+  "fields": {
+    "pet": 10,
+    "requester": 5,
+    "message": "dog",
+    "status": "pending",
+    "created_at": "2026-01-24T15:30:32.703Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 25,
+  "fields": {
+    "pet": 4,
+    "requester": 6,
+    "message": "cat",
+    "status": "pending",
+    "created_at": "2026-01-24T16:11:07.530Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 26,
+  "fields": {
+    "pet": 11,
+    "requester": 4,
+    "message": "dog",
+    "status": "pending",
+    "created_at": "2026-01-24T16:12:20.029Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 27,
+  "fields": {
+    "pet": 10,
+    "requester": 4,
+    "message": "I want to adopt this dog, please contact me.",
+    "status": "pending",
+    "created_at": "2026-01-24T16:16:44.639Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 28,
+  "fields": {
+    "pet": 22,
+    "requester": 2,
+    "message": "I want to adopt this dog. Please contact me.",
+    "status": "pending",
+    "created_at": "2026-01-24T18:19:07.842Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 29,
+  "fields": {
+    "pet": 10,
+    "requester": 4,
+    "message": "dog",
+    "status": "pending",
+    "created_at": "2026-02-01T07:21:27.156Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 30,
+  "fields": {
+    "pet": 10,
+    "requester": 6,
+    "message": "dog",
+    "status": "pending",
+    "created_at": "2026-02-01T09:45:37.249Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 31,
+  "fields": {
+    "pet": 19,
+    "requester": 7,
+    "message": "m",
+    "status": "pending",
+    "created_at": "2026-02-23T17:28:00.609Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 32,
+  "fields": {
+    "pet": 23,
+    "requester": 7,
+    "message": "nnn",
+    "status": "pending",
+    "created_at": "2026-02-23T17:37:27.121Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 33,
+  "fields": {
+    "pet": 7,
+    "requester": 7,
+    "message": "llllll",
+    "status": "pending",
+    "created_at": "2026-03-28T18:09:54.781Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 34,
+  "fields": {
+    "pet": 19,
+    "requester": 7,
+    "message": "fff",
+    "status": "pending",
+    "created_at": "2026-03-29T17:22:26.178Z"
+  }
+},
+{
+  "model": "pets.adoptionrequest",
+  "pk": 35,
+  "fields": {
+    "pet": 19,
+    "requester": 9,
+    "message": "hay i know u checking the sqllite database",
+    "status": "pending",
+    "created_at": "2026-04-09T16:59:24.611Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "report_type": "lost",
+    "pet_name": "Bella",
+    "pet_type": "cat",
+    "breed": "Angora",
+    "location_found": "Bangalore",
+    "lat": null,
+    "lng": null,
+    "description": "playful",
+    "embedding": null,
+    "match_score": null,
+    "match_status": "unmatched",
+    "matched_report": null,
+    "status": "inactive",
+    "created_at": "2026-01-01T21:21:17.160Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 2,
+  "fields": {
+    "user": 3,
+    "report_type": "found",
+    "pet_name": "",
+    "pet_type": "cat",
+    "breed": "Maine Coon",
+    "location_found": "Bangalore",
+    "lat": null,
+    "lng": null,
+    "description": "with red neck belt",
+    "embedding": null,
+    "match_score": null,
+    "match_status": "unmatched",
+    "matched_report": null,
+    "status": "active",
+    "created_at": "2026-01-02T09:05:37.934Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "report_type": "found",
+    "pet_name": "",
+    "pet_type": "dog",
+    "breed": "Cavalier King Charles Spaniel",
+    "location_found": "Bangalore",
+    "lat": null,
+    "lng": null,
+    "description": "A small, gentle-looking dog with long, soft fur in white and light brown shades. The dog has expressive dark eyes, floppy ears, and a well-groomed coat. At the time of being found, the dog was wearing a colorful leash. Appears calm and friendly, comfortable around people, and likely well cared for. Please contact if you recognize this pet or know the owner.",
+    "embedding": null,
+    "match_score": 0.16225759365469744,
+    "match_status": "unmatched",
+    "matched_report": null,
+    "status": "active",
+    "created_at": "2026-01-04T08:44:43.485Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 4,
+  "fields": {
+    "user": 3,
+    "report_type": "lost",
+    "pet_name": "Emerald",
+    "pet_type": "bird",
+    "breed": "Blue-fronted Parrot",
+    "location_found": "Chennai",
+    "lat": null,
+    "lng": null,
+    "description": "A beautiful medium-sized parrot with vibrant green feathers and a bright yellow patch on the head. The bird has a strong dark beak, alert reddish-brown eyes, and a noticeable hint of red on the wings. Appears healthy, active, and likely accustomed to human interaction. Last seen perched calmly and responding to surroundings. If found or spotted, please contact immediately.",
+    "embedding": null,
+    "match_score": 0.44966565636364836,
+    "match_status": "unmatched",
+    "matched_report": null,
+    "status": "active",
+    "created_at": "2026-01-04T09:14:21.312Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 5,
+  "fields": {
+    "user": 5,
+    "report_type": "found",
+    "pet_name": "",
+    "pet_type": "dog",
+    "breed": "Jack Russell Terrier",
+    "location_found": "Mumbai",
+    "lat": null,
+    "lng": null,
+    "description": "A small, alert dog with a short white coat and light brown markings on the face and ears. The dog has expressive dark eyes, a slender build, and appears well cared for. At the time of being found, the dog was wearing a pink bandana around the neck. Friendly yet slightly cautious, responsive to people, and comfortable being handled.",
+    "embedding": null,
+    "match_score": null,
+    "match_status": "unmatched",
+    "matched_report": null,
+    "status": "inactive",
+    "created_at": "2026-01-04T10:45:32.590Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 6,
+  "fields": {
+    "user": 3,
+    "report_type": "found",
+    "pet_name": "",
+    "pet_type": "dog",
+    "breed": "Cavalier King Charles Spaniel",
+    "location_found": "Bangalore",
+    "lat": null,
+    "lng": null,
+    "description": "",
+    "embedding": null,
+    "match_score": null,
+    "match_status": "unmatched",
+    "matched_report": null,
+    "status": "active",
+    "created_at": "2026-01-04T15:19:10.308Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 7,
+  "fields": {
+    "user": 3,
+    "report_type": "found",
+    "pet_name": "",
+    "pet_type": "dog",
+    "breed": "Jack Russell Terrier",
+    "location_found": "Chennai",
+    "lat": null,
+    "lng": null,
+    "description": "A small, alert dog with a short white coat and light brown markings on the face and ears. The dog has expressive dark eyes, a slender build, and appears well cared for. At the time of being found, the dog was wearing a pink bandana around the neck. Friendly yet slightly cautious, responsive to people, and comfortable being handled.",
+    "embedding": null,
+    "match_score": null,
+    "match_status": "unmatched",
+    "matched_report": null,
+    "status": "active",
+    "created_at": "2026-01-04T15:23:00.905Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 8,
+  "fields": {
+    "user": 2,
+    "report_type": "lost",
+    "pet_name": "rocky",
+    "pet_type": "dog",
+    "breed": "labrador",
+    "location_found": "Bangalore",
+    "lat": null,
+    "lng": null,
+    "description": "playful and active",
+    "embedding": null,
+    "match_score": 0.589232586308999,
+    "match_status": "matched",
+    "matched_report": 10,
+    "status": "active",
+    "created_at": "2026-01-07T16:54:23.991Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 9,
+  "fields": {
+    "user": 2,
+    "report_type": "lost",
+    "pet_name": "rocky",
+    "pet_type": "dog",
+    "breed": "labrador",
+    "location_found": "Bangalore",
+    "lat": null,
+    "lng": null,
+    "description": "dog",
+    "embedding": null,
+    "match_score": 0.5022713652432579,
+    "match_status": "matched",
+    "matched_report": 14,
+    "status": "active",
+    "created_at": "2026-02-01T06:30:25.446Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 10,
+  "fields": {
+    "user": 4,
+    "report_type": "found",
+    "pet_name": "",
+    "pet_type": "dog",
+    "breed": "labrador",
+    "location_found": "Bangalore",
+    "lat": null,
+    "lng": null,
+    "description": "small dog",
+    "embedding": null,
+    "match_score": 0.362787068096397,
+    "match_status": "matched",
+    "matched_report": 12,
+    "status": "inactive",
+    "created_at": "2026-02-01T07:09:57.204Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 11,
+  "fields": {
+    "user": 6,
+    "report_type": "found",
+    "pet_name": "",
+    "pet_type": "dog",
+    "breed": "labrador",
+    "location_found": "Chennai",
+    "lat": null,
+    "lng": null,
+    "description": "Dog has a neck chain",
+    "embedding": null,
+    "match_score": 0.7387562770250944,
+    "match_status": "matched",
+    "matched_report": 9,
+    "status": "inactive",
+    "created_at": "2026-02-01T09:39:17.855Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 12,
+  "fields": {
+    "user": 2,
+    "report_type": "lost",
+    "pet_name": "Bruno",
+    "pet_type": "dog",
+    "breed": "labrador",
+    "location_found": "Chennai",
+    "lat": null,
+    "lng": null,
+    "description": "dog",
+    "embedding": null,
+    "match_score": 0.362787068096397,
+    "match_status": "matched",
+    "matched_report": 10,
+    "status": "inactive",
+    "created_at": "2026-02-01T09:43:44.449Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 13,
+  "fields": {
+    "user": 7,
+    "report_type": "lost",
+    "pet_name": "kiki",
+    "pet_type": "dog",
+    "breed": "labra",
+    "location_found": "bhubaneswar",
+    "lat": null,
+    "lng": null,
+    "description": "black color healthy",
+    "embedding": null,
+    "match_score": null,
+    "match_status": "unmatched",
+    "matched_report": null,
+    "status": "inactive",
+    "created_at": "2026-02-23T17:30:09.049Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 14,
+  "fields": {
+    "user": 7,
+    "report_type": "found",
+    "pet_name": "unknown",
+    "pet_type": "cat",
+    "breed": "absyn",
+    "location_found": "bhubaneswar",
+    "lat": null,
+    "lng": null,
+    "description": "cute cat",
+    "embedding": null,
+    "match_score": 0.5022713652432579,
+    "match_status": "matched",
+    "matched_report": 9,
+    "status": "inactive",
+    "created_at": "2026-02-23T17:38:37.693Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 15,
+  "fields": {
+    "user": 7,
+    "report_type": "lost",
+    "pet_name": "kiki",
+    "pet_type": "dog",
+    "breed": "labra",
+    "location_found": "bhubaneswar",
+    "lat": null,
+    "lng": null,
+    "description": "vbgg",
+    "embedding": null,
+    "match_score": null,
+    "match_status": "unmatched",
+    "matched_report": null,
+    "status": "inactive",
+    "created_at": "2026-03-29T17:30:46.233Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 16,
+  "fields": {
+    "user": 8,
+    "report_type": "found",
+    "pet_name": "ff",
+    "pet_type": "cat",
+    "breed": "ddd",
+    "location_found": "fddd",
+    "lat": null,
+    "lng": null,
+    "description": "ddd",
+    "embedding": null,
+    "match_score": null,
+    "match_status": "unmatched",
+    "matched_report": null,
+    "status": "inactive",
+    "created_at": "2026-03-29T17:33:55.644Z"
+  }
+},
+{
+  "model": "pets.lostfoundreport",
+  "pk": 17,
+  "fields": {
+    "user": 7,
+    "report_type": "lost",
+    "pet_name": "chikuu",
+    "pet_type": "dog",
+    "breed": "Pomeranian",
+    "location_found": "jagatsinghpur",
+    "lat": null,
+    "lng": null,
+    "description": "age-4\r\nweight-10kg\r\ncolor-white",
+    "embedding": null,
+    "match_score": null,
+    "match_status": "unmatched",
+    "matched_report": null,
+    "status": "active",
+    "created_at": "2026-03-30T05:53:11.005Z"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 1,
+  "fields": {
+    "report": 1,
+    "image": "reports/adopton_NRAow7I.png"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 2,
+  "fields": {
+    "report": 2,
+    "image": "reports/login1.png"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 3,
+  "fields": {
+    "report": 3,
+    "image": "reports/lpet2.jpg"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 4,
+  "fields": {
+    "report": 4,
+    "image": "reports/ppet1.jpg"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 5,
+  "fields": {
+    "report": 4,
+    "image": "reports/ppet12.jpg"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 6,
+  "fields": {
+    "report": 5,
+    "image": "reports/lpet1.jpg"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 7,
+  "fields": {
+    "report": 5,
+    "image": "reports/pet3.jpg"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 8,
+  "fields": {
+    "report": 6,
+    "image": "reports/lpet2_21IASE8.jpg"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 9,
+  "fields": {
+    "report": 7,
+    "image": "reports/lpet1_wDba8hs.jpg"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 10,
+  "fields": {
+    "report": 8,
+    "image": "reports/images.jpg"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 11,
+  "fields": {
+    "report": 9,
+    "image": "reports/lab1.jpg"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 12,
+  "fields": {
+    "report": 10,
+    "image": "reports/lab1_KrZ5JjO.jpg"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 13,
+  "fields": {
+    "report": 11,
+    "image": "reports/Stylish__Durable_Stainless_Steel_Dog_Chain_for_Large_Dogs.jpg"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 14,
+  "fields": {
+    "report": 12,
+    "image": "reports/Sign.jpg"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 15,
+  "fields": {
+    "report": 13,
+    "image": "reports/labra.webp"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 16,
+  "fields": {
+    "report": 14,
+    "image": "reports/Abyssinian_117.jpg"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 17,
+  "fields": {
+    "report": 15,
+    "image": "reports/labra_GEITg1j.webp"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 18,
+  "fields": {
+    "report": 16,
+    "image": "reports/Siberian-Husky-dog.webp"
+  }
+},
+{
+  "model": "pets.lostfoundimage",
+  "pk": 19,
+  "fields": {
+    "report": 17,
+    "image": "reports/WhatsApp_Image_2026-03-30_at_11.16.13_AM.jpeg"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 11,
+  "fields": {
+    "user": 4,
+    "pet": 5,
+    "created_at": "2026-01-04T10:01:35.493Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 13,
+  "fields": {
+    "user": 2,
+    "pet": 6,
+    "created_at": "2026-01-04T10:36:28.667Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 14,
+  "fields": {
+    "user": 5,
+    "pet": 10,
+    "created_at": "2026-01-04T14:25:57.637Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 16,
+  "fields": {
+    "user": 3,
+    "pet": 9,
+    "created_at": "2026-01-04T14:31:34.854Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 17,
+  "fields": {
+    "user": 3,
+    "pet": 10,
+    "created_at": "2026-01-04T14:31:43.518Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 22,
+  "fields": {
+    "user": 1,
+    "pet": 6,
+    "created_at": "2026-01-08T18:16:56.010Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 23,
+  "fields": {
+    "user": 1,
+    "pet": 5,
+    "created_at": "2026-01-08T18:16:58.072Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 26,
+  "fields": {
+    "user": 5,
+    "pet": 9,
+    "created_at": "2026-01-15T14:27:08.047Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 27,
+  "fields": {
+    "user": 5,
+    "pet": 6,
+    "created_at": "2026-01-15T14:27:13.916Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 28,
+  "fields": {
+    "user": 5,
+    "pet": 8,
+    "created_at": "2026-01-15T14:27:15.986Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 29,
+  "fields": {
+    "user": 5,
+    "pet": 5,
+    "created_at": "2026-01-15T14:27:17.951Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 32,
+  "fields": {
+    "user": 2,
+    "pet": 5,
+    "created_at": "2026-01-20T17:53:22.551Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 36,
+  "fields": {
+    "user": 4,
+    "pet": 10,
+    "created_at": "2026-01-21T07:21:01.530Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 39,
+  "fields": {
+    "user": 3,
+    "pet": 11,
+    "created_at": "2026-01-21T12:47:45.320Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 40,
+  "fields": {
+    "user": 6,
+    "pet": 10,
+    "created_at": "2026-01-21T13:35:38.034Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 47,
+  "fields": {
+    "user": 2,
+    "pet": 11,
+    "created_at": "2026-01-30T08:24:12.944Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 48,
+  "fields": {
+    "user": 1,
+    "pet": 10,
+    "created_at": "2026-02-02T14:48:39.278Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 50,
+  "fields": {
+    "user": 7,
+    "pet": 19,
+    "created_at": "2026-02-23T17:27:26.922Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 56,
+  "fields": {
+    "user": 7,
+    "pet": 23,
+    "created_at": "2026-03-30T05:35:30.032Z"
+  }
+},
+{
+  "model": "pets.favorite",
+  "pk": 58,
+  "fields": {
+    "user": 7,
+    "pet": 24,
+    "created_at": "2026-03-30T06:18:58.648Z"
+  }
+},
+{
+  "model": "pets.lostfoundresponse",
+  "pk": 2,
+  "fields": {
+    "report": 3,
+    "responder": 6,
+    "message": "this is my pet.",
+    "status": "pending",
+    "created_at": "2026-01-22T11:26:25.604Z"
+  }
+},
+{
+  "model": "pets.lostfoundresponse",
+  "pk": 3,
+  "fields": {
+    "report": 3,
+    "responder": 3,
+    "message": "dog",
+    "status": "pending",
+    "created_at": "2026-01-22T11:42:45.402Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "title": "Report Approved",
+    "message": "Your lost/found pet report has been approved and is now visible to the public.",
+    "is_read": true,
+    "created_at": "2026-01-01T21:21:45.107Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "title": "Report Deactivated",
+    "message": "Your lost/found pet report has been deactivated by the admin.",
+    "is_read": true,
+    "created_at": "2026-01-01T22:01:29.525Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 3,
+  "fields": {
+    "user": 2,
+    "title": "Report Approved",
+    "message": "Your lost/found pet report has been approved and is now visible to the public.",
+    "is_read": true,
+    "created_at": "2026-01-01T22:01:36.903Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 4,
+  "fields": {
+    "user": 3,
+    "title": "Report Approved",
+    "message": "Your lost/found pet report has been approved and is now visible to the public.",
+    "is_read": false,
+    "created_at": "2026-01-02T09:05:57.692Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 5,
+  "fields": {
+    "user": 2,
+    "title": "Report Approved",
+    "message": "Your lost/found pet report has been approved and is now visible to the public.",
+    "is_read": true,
+    "created_at": "2026-01-04T12:00:49.672Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 6,
+  "fields": {
+    "user": 3,
+    "title": "Report Approved",
+    "message": "Your lost/found pet report has been approved and is now visible to the public.",
+    "is_read": false,
+    "created_at": "2026-01-04T14:30:02.547Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 7,
+  "fields": {
+    "user": 5,
+    "title": "Report Approved",
+    "message": "Your lost/found pet report has been approved and is now visible to the public.",
+    "is_read": false,
+    "created_at": "2026-01-04T15:08:08.106Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 8,
+  "fields": {
+    "user": 2,
+    "title": "Report Deactivated",
+    "message": "Your lost/found pet report has been deactivated by the admin.",
+    "is_read": true,
+    "created_at": "2026-01-04T15:08:15.241Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 9,
+  "fields": {
+    "user": 2,
+    "title": "Report Deactivated",
+    "message": "Your lost/found pet report has been deactivated by the admin.",
+    "is_read": true,
+    "created_at": "2026-01-04T15:08:19.159Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 10,
+  "fields": {
+    "user": 3,
+    "title": "Report Deactivated",
+    "message": "Your lost/found pet report has been deactivated by the admin.",
+    "is_read": false,
+    "created_at": "2026-01-04T15:08:20.829Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 11,
+  "fields": {
+    "user": 5,
+    "title": "Report Deactivated",
+    "message": "Your lost/found pet report has been deactivated by the admin.",
+    "is_read": false,
+    "created_at": "2026-01-04T15:08:23.238Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 12,
+  "fields": {
+    "user": 3,
+    "title": "Report Deactivated",
+    "message": "Your lost/found pet report has been deactivated by the admin.",
+    "is_read": false,
+    "created_at": "2026-01-04T15:08:24.636Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 13,
+  "fields": {
+    "user": 3,
+    "title": "Report Approved",
+    "message": "Your lost/found pet report has been approved and is now visible to the public.",
+    "is_read": false,
+    "created_at": "2026-01-04T15:19:44.999Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 14,
+  "fields": {
+    "user": 3,
+    "title": "Report Approved",
+    "message": "Your lost/found pet report has been approved and is now visible to the public.",
+    "is_read": false,
+    "created_at": "2026-01-04T15:23:15.771Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 15,
+  "fields": {
+    "user": 3,
+    "title": "Report Approved",
+    "message": "Your lost/found pet report has been approved and is now visible to the public.",
+    "is_read": false,
+    "created_at": "2026-01-04T15:23:15.992Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 16,
+  "fields": {
+    "user": 5,
+    "title": "Report Approved",
+    "message": "Your lost/found pet report has been approved and is now visible to the public.",
+    "is_read": false,
+    "created_at": "2026-01-04T16:36:17.827Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 17,
+  "fields": {
+    "user": 3,
+    "title": "Report Approved",
+    "message": "Your lost/found pet report has been approved and is now visible to the public.",
+    "is_read": false,
+    "created_at": "2026-01-04T16:36:18.985Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 18,
+  "fields": {
+    "user": 2,
+    "title": "Report Approved",
+    "message": "Your lost/found pet report has been approved and is now visible to the public.",
+    "is_read": true,
+    "created_at": "2026-01-04T16:36:20.086Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 19,
+  "fields": {
+    "user": 3,
+    "title": "Report Approved",
+    "message": "Your lost/found pet report has been approved and is now visible to the public.",
+    "is_read": false,
+    "created_at": "2026-01-04T16:36:24.189Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 20,
+  "fields": {
+    "user": 3,
+    "title": "Report Deactivated",
+    "message": "Your lost/found pet report has been deactivated by the admin.",
+    "is_read": false,
+    "created_at": "2026-01-04T16:37:32.428Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 21,
+  "fields": {
+    "user": 3,
+    "title": "Report Deactivated",
+    "message": "Your lost/found pet report has been deactivated by the admin.",
+    "is_read": false,
+    "created_at": "2026-01-04T16:37:49.619Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 22,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "User3 wants to adopt Titan.\nPhone: 8790762430",
+    "is_read": true,
+    "created_at": "2026-01-05T12:49:09.147Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 23,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "admin wants to adopt Titan.\n\nPhone: 9398915414\nMessage: i want to adopt this pet",
+    "is_read": true,
+    "created_at": "2026-01-07T16:58:03.900Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 24,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": true,
+    "created_at": "2026-01-07T17:25:35.267Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 25,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": true,
+    "created_at": "2026-01-07T17:34:04.905Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 26,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": true,
+    "created_at": "2026-01-07T17:34:38.545Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 27,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": true,
+    "created_at": "2026-01-08T11:50:54.965Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 28,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": true,
+    "created_at": "2026-01-08T11:51:13.616Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 29,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": true,
+    "created_at": "2026-01-08T11:51:19.848Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 30,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-08T11:51:21.697Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 31,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-08T11:51:23.384Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 32,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": true,
+    "created_at": "2026-01-08T11:58:19.535Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 33,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-08T11:58:22.171Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 34,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-08T11:58:37.634Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 35,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": true,
+    "created_at": "2026-01-08T11:58:49.622Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 36,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-08T12:41:20.294Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 37,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": true,
+    "created_at": "2026-01-08T12:42:20.291Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 38,
+  "fields": {
+    "user": 5,
+    "title": "New Adoption Request",
+    "message": "admin wants to adopt Coco.\n\nPhone: 8790250730\nMessage: adoption",
+    "is_read": false,
+    "created_at": "2026-01-08T12:44:21.624Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 39,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-08T18:15:27.347Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 40,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-08T18:15:33.967Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 41,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-09T13:08:42.745Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 42,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-10T14:08:01.267Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 43,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-10T14:08:08.829Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 44,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": true,
+    "created_at": "2026-01-10T15:58:16.927Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 45,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "admin wants to adopt Titan.\nPhone: 9246462838",
+    "is_read": true,
+    "created_at": "2026-01-10T15:59:02.262Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 46,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": true,
+    "created_at": "2026-01-11T18:52:52.673Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 47,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": true,
+    "created_at": "2026-01-15T14:48:55.819Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 48,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-15T14:49:02.101Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 49,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-15T14:49:04.824Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 50,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-19T16:14:26.384Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 51,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-19T16:14:30.720Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 52,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-19T16:14:33.094Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 53,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-19T16:14:49.161Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 54,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "User2 wants to adopt Titan.\nPhone: 8253826343",
+    "is_read": false,
+    "created_at": "2026-01-21T07:21:35.562Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 55,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-21T07:52:37.418Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 56,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-21T08:00:41.370Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 57,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-21T08:01:04.356Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 58,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "User1 wants to adopt Titan.\nPhone: 9246738273",
+    "is_read": true,
+    "created_at": "2026-01-21T08:12:04.311Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 59,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-21T09:47:09.641Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 60,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-21T09:47:34.902Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 61,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "User1 wants to adopt Titan.\nPhone: 8253826343",
+    "is_read": false,
+    "created_at": "2026-01-21T09:48:50.331Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 62,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-01-21T13:08:02.521Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 63,
+  "fields": {
+    "user": 2,
+    "title": "New Lost & Found Response",
+    "message": "Someone responded to your lost/found report.",
+    "is_read": false,
+    "created_at": "2026-01-22T09:11:14.641Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 64,
+  "fields": {
+    "user": 6,
+    "title": "Response Rejected",
+    "message": "Your response to a lost/found report was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T10:53:57.127Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 65,
+  "fields": {
+    "user": 6,
+    "title": "Response Rejected",
+    "message": "Your response to a lost/found report was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T10:53:58.612Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 66,
+  "fields": {
+    "user": 3,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Titan was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:08.235Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 67,
+  "fields": {
+    "user": 4,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Titan was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:13.420Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 68,
+  "fields": {
+    "user": 1,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Daisy was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:15.411Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 69,
+  "fields": {
+    "user": 1,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Daisy was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:16.961Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 70,
+  "fields": {
+    "user": 5,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Titan was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:29.378Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 71,
+  "fields": {
+    "user": 3,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Titan was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:30.968Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 72,
+  "fields": {
+    "user": 1,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Titan was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:32.682Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 73,
+  "fields": {
+    "user": 1,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Titan was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:34.452Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 74,
+  "fields": {
+    "user": 5,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Titan was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:36.329Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 75,
+  "fields": {
+    "user": 5,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Ginger was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:38.769Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 76,
+  "fields": {
+    "user": 1,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Daisy was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:41.184Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 77,
+  "fields": {
+    "user": 5,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Titan was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:42.715Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 78,
+  "fields": {
+    "user": 5,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Ginger was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:44.125Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 79,
+  "fields": {
+    "user": 1,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Titan was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:45.465Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 80,
+  "fields": {
+    "user": 5,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Titan was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:47.183Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 81,
+  "fields": {
+    "user": 5,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Ginger was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:08:51.096Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 82,
+  "fields": {
+    "user": 6,
+    "title": "New Adoption Request",
+    "message": "dhanush wants to adopt Charlie.\nPhone: 8790250730",
+    "is_read": false,
+    "created_at": "2026-01-22T11:09:33.298Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 83,
+  "fields": {
+    "user": 2,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Charlie was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:10:03.981Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 84,
+  "fields": {
+    "user": 6,
+    "title": "New Adoption Request",
+    "message": "dhanush wants to adopt Charlie.\nPhone: 8790250730",
+    "is_read": false,
+    "created_at": "2026-01-22T11:24:36.640Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 85,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "Nihitha wants to adopt Titan.\nPhone: 9246738273",
+    "is_read": false,
+    "created_at": "2026-01-22T11:25:50.639Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 86,
+  "fields": {
+    "user": 2,
+    "title": "New Lost & Found Response",
+    "message": "Someone responded to your lost/found report.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:26:26.070Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 87,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "User1 wants to adopt Titan.\nPhone: 8473924761",
+    "is_read": true,
+    "created_at": "2026-01-22T11:29:36.944Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 88,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "Nihitha wants to adopt Daisy.\nPhone: 8473924761",
+    "is_read": false,
+    "created_at": "2026-01-22T11:40:46.743Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 89,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "User1 wants to adopt Ginger.\nPhone: 7326316328",
+    "is_read": false,
+    "created_at": "2026-01-22T11:41:50.835Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 90,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "User1 wants to adopt Daisy.\nPhone: 6543567967",
+    "is_read": false,
+    "created_at": "2026-01-22T11:42:24.235Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 91,
+  "fields": {
+    "user": 2,
+    "title": "New Lost & Found Response",
+    "message": "Someone responded to your lost/found report.",
+    "is_read": false,
+    "created_at": "2026-01-22T11:42:45.872Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 92,
+  "fields": {
+    "user": 3,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Daisy was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T12:00:41.004Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 93,
+  "fields": {
+    "user": 3,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Titan was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T12:00:53.358Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 94,
+  "fields": {
+    "user": 6,
+    "title": "Adoption Request Rejected",
+    "message": "Your adoption request for Titan was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-22T12:00:56.927Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 95,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "User3 wants to adopt Titan.\nPhone: ",
+    "is_read": false,
+    "created_at": "2026-01-24T15:30:32.914Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 96,
+  "fields": {
+    "user": 2,
+    "title": "New Lost & Found Response",
+    "message": "Someone responded to your lost/found report.",
+    "is_read": false,
+    "created_at": "2026-01-24T16:10:42.671Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 97,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "Nihitha wants to adopt Ginger.\nPhone: ",
+    "is_read": true,
+    "created_at": "2026-01-24T16:11:07.815Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 98,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "User2 wants to adopt rocky.\nPhone: ",
+    "is_read": true,
+    "created_at": "2026-01-24T16:12:20.483Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 99,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "User2 wants to adopt Titan.\nPhone: ",
+    "is_read": true,
+    "created_at": "2026-01-24T16:16:45.109Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 100,
+  "fields": {
+    "user": 6,
+    "title": "New Adoption Request",
+    "message": "dhanush wants to adopt Charlie.\nPhone: ",
+    "is_read": false,
+    "created_at": "2026-01-24T18:19:08.049Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 101,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": true,
+    "created_at": "2026-01-24T18:38:55.598Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 102,
+  "fields": {
+    "user": 6,
+    "title": "Response Rejected",
+    "message": "Your response to a lost/found report was rejected.",
+    "is_read": false,
+    "created_at": "2026-01-24T18:42:29.495Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 103,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T05:00:49.296Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 104,
+  "fields": {
+    "user": 5,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T06:29:02.713Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 105,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T06:29:09.037Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 106,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T06:29:17.023Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 107,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T07:08:40.874Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 108,
+  "fields": {
+    "user": 4,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T07:10:19.218Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 109,
+  "fields": {
+    "user": 2,
+    "title": "🐾 Your Pet Has Been Found!",
+    "message": "🎉 Great news! A match has been confirmed for your lost pet 'rocky'.\n\n📋 Match Details:\n• Similarity Score: 100.00%\n• Found Location: Bangalore\n\n👤 Finder Contact Information:\n• Name: User2\n• Email: user2@gmail.com\n• Phone: Not provided\n\nPlease contact the finder to arrange reunion. Thank you!",
+    "is_read": false,
+    "created_at": "2026-02-01T07:10:33.284Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 110,
+  "fields": {
+    "user": 2,
+    "title": "🐾 Your Pet Has Been Found!",
+    "message": "🎉 Great news! A match has been confirmed for your lost pet 'rocky'.\n\n📋 Match Details:\n• Similarity Score: 100.00%\n• Found Location: Bangalore\n\n👤 Finder Contact Information:\n• Name: User2\n• Email: user2@gmail.com\n• Phone: Not provided\n\nPlease contact the finder to arrange reunion.",
+    "is_read": false,
+    "created_at": "2026-02-01T07:17:22.083Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 111,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "User2 wants to adopt Titan.\nPhone: ",
+    "is_read": true,
+    "created_at": "2026-02-01T07:21:27.359Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 112,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T07:41:40.063Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 113,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T08:21:39.572Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 114,
+  "fields": {
+    "user": 4,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T08:21:40.812Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 115,
+  "fields": {
+    "user": 4,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T08:58:50.538Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 116,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T08:58:51.137Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 117,
+  "fields": {
+    "user": 4,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T08:58:56.221Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 118,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T09:32:26.899Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 119,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T09:44:18.196Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 120,
+  "fields": {
+    "user": 6,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T09:44:21.444Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 121,
+  "fields": {
+    "user": 2,
+    "title": "🐾 Your Pet Has Been Found!",
+    "message": "🎉 Great news! A match has been confirmed for your lost pet 'rocky'.\n\n📋 Match Details:\n• Similarity Score: 52.52%\n• Found Location: Chennai\n\n👤 Finder Contact Information:\n• Name: Nihitha\n• Email: girinihithadornadula@gmail.com\n• Phone: Not provided\n\nPlease contact the finder to arrange reunion.",
+    "is_read": false,
+    "created_at": "2026-02-01T09:44:51.815Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 122,
+  "fields": {
+    "user": 2,
+    "title": "New Adoption Request",
+    "message": "Nihitha wants to adopt Titan.\nPhone: ",
+    "is_read": false,
+    "created_at": "2026-02-01T09:45:37.715Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 123,
+  "fields": {
+    "user": 2,
+    "title": "🐾 Your Pet Has Been Found!",
+    "message": "🎉 Great news! A match has been confirmed for your lost pet 'Bruno'.\n\n📋 Match Details:\n• Similarity Score: 32.32%\n• Found Location: Chennai\n\n👤 Finder Contact Information:\n• Name: Nihitha\n• Email: girinihithadornadula@gmail.com\n• Phone: Not provided\n\nPlease contact the finder to arrange reunion.",
+    "is_read": false,
+    "created_at": "2026-02-01T09:59:10.056Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 124,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T10:17:40.616Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 125,
+  "fields": {
+    "user": 4,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-01T10:17:40.489Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 126,
+  "fields": {
+    "user": 2,
+    "title": "🐾 Match Found for Your Pet",
+    "message": "Good news! A verified match has been found for your lost pet.\n\nMatch Summary:\n• Similarity Score: 73.88%\n• Found Location: Chennai\n\nFinder Contact Details:\n• Name: Nihitha\n• Email: girinihithadornadula@gmail.com\n• Phone: Not provided\n\nPlease contact the finder to proceed with recovery.",
+    "is_read": false,
+    "created_at": "2026-02-01T10:18:10.824Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 127,
+  "fields": {
+    "user": 2,
+    "title": "🐾 PetRescue Match Found",
+    "message": "🎉 Good news!\n\nA verified match has been found for your lost pet.\n\nPet: rocky\nFound Location: Bangalore\nMatch Confidence: 58.92%\n\nFinder Contact:\nName: User2\nEmail: user2@gmail.com\nPhone: Not provided\n\nPlease reach out to the finder to proceed.",
+    "is_read": false,
+    "created_at": "2026-02-01T12:38:33.926Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 128,
+  "fields": {
+    "user": 4,
+    "title": "🐾 PetRescue Match Found",
+    "message": "🐾 Match confirmed!\n\nA pet you reported appears to match a lost pet.\n\nPet Name: rocky\nLost Location: Bangalore\nMatch Confidence: 58.92%\n\nOwner Contact:\nName: dhanush\nEmail: arutladhanush1610@gmail.com\nPhone: Not provided\n\nPlease contact the owner to help reunite the pet.",
+    "is_read": false,
+    "created_at": "2026-02-01T12:38:34.157Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 129,
+  "fields": {
+    "user": 3,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-23T17:23:59.298Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 130,
+  "fields": {
+    "user": 2,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-23T17:24:17.042Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 131,
+  "fields": {
+    "user": 6,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-23T17:24:22.871Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 132,
+  "fields": {
+    "user": 3,
+    "title": "New Adoption Request",
+    "message": "Stiti wants to adopt rocky.\nPhone: ",
+    "is_read": false,
+    "created_at": "2026-02-23T17:28:00.627Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 133,
+  "fields": {
+    "user": 7,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-02-23T17:30:54.062Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 134,
+  "fields": {
+    "user": 2,
+    "title": "🐾 PetRescue Match Found",
+    "message": "A verified match has been found for your lost pet.\n\nPet: Bruno\nFound Location: Bangalore\nMatch Confidence: 36.28%\n\nPlease reach out to the finder to proceed.",
+    "is_read": false,
+    "created_at": "2026-02-23T17:34:33.644Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 135,
+  "fields": {
+    "user": 4,
+    "title": "🐾 PetRescue Match Found",
+    "message": "🐾 Match confirmed!\n\nA pet you reported appears to match a lost pet.\n\nPet Name: Bruno\nLost Location: Chennai\nMatch Confidence: 36.28%\n\nOwner Contact:\nName: dhanush\nEmail: arutladhanush1610@gmail.com\nPhone: Not provided\n\nPlease contact the owner to help reunite the pet.",
+    "is_read": false,
+    "created_at": "2026-02-23T17:34:33.661Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 136,
+  "fields": {
+    "user": 2,
+    "title": "🐾 PetRescue Match Found",
+    "message": "A verified match has been found for your lost pet.\n\nPet: Bruno\nFound Location: Bangalore\nMatch Confidence: 36.28%\n\nPlease reach out to the finder to proceed.",
+    "is_read": false,
+    "created_at": "2026-02-23T17:34:35.343Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 137,
+  "fields": {
+    "user": 4,
+    "title": "🐾 PetRescue Match Found",
+    "message": "🐾 Match confirmed!\n\nA pet you reported appears to match a lost pet.\n\nPet Name: Bruno\nLost Location: Chennai\nMatch Confidence: 36.28%\n\nOwner Contact:\nName: dhanush\nEmail: arutladhanush1610@gmail.com\nPhone: Not provided\n\nPlease contact the owner to help reunite the pet.",
+    "is_read": false,
+    "created_at": "2026-02-23T17:34:35.355Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 138,
+  "fields": {
+    "user": 7,
+    "title": "New Adoption Request",
+    "message": "Stiti wants to adopt kitu.\nPhone: ",
+    "is_read": false,
+    "created_at": "2026-02-23T17:37:27.137Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 139,
+  "fields": {
+    "user": 7,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": true,
+    "created_at": "2026-02-23T17:38:54.242Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 140,
+  "fields": {
+    "user": 4,
+    "title": "New Adoption Request",
+    "message": "Stiti wants to adopt Goldie.\nPhone: ",
+    "is_read": false,
+    "created_at": "2026-03-28T18:09:54.802Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 141,
+  "fields": {
+    "user": 4,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-03-28T18:22:02.115Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 142,
+  "fields": {
+    "user": 7,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-03-29T17:20:43.776Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 143,
+  "fields": {
+    "user": 7,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-03-29T17:20:47.303Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 144,
+  "fields": {
+    "user": 3,
+    "title": "New Adoption Request",
+    "message": "Stiti wants to adopt rocky.\nPhone: ",
+    "is_read": false,
+    "created_at": "2026-03-29T17:22:26.193Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 145,
+  "fields": {
+    "user": 7,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-03-29T17:31:22.910Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 146,
+  "fields": {
+    "user": 8,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-03-29T17:35:16.706Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 147,
+  "fields": {
+    "user": 7,
+    "title": "Report Status Updated",
+    "message": "Your report is now ACTIVE.",
+    "is_read": false,
+    "created_at": "2026-03-30T05:53:24.889Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 148,
+  "fields": {
+    "user": 8,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-04-09T11:25:24.931Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 149,
+  "fields": {
+    "user": 7,
+    "title": "Report Status Updated",
+    "message": "Your report is now INACTIVE.",
+    "is_read": false,
+    "created_at": "2026-04-09T11:25:32.900Z"
+  }
+},
+{
+  "model": "notifications.notification",
+  "pk": 150,
+  "fields": {
+    "user": 3,
+    "title": "New Adoption Request",
+    "message": "sparkyy wants to adopt rocky.\nPhone: 4545454545",
+    "is_read": false,
+    "created_at": "2026-04-09T16:59:24.624Z"
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 1,
+  "fields": {
+    "lost_report": 9,
+    "found_report": 3,
+    "score": 0.16225759365469744,
+    "matched_on": "2026-04-09T16:02:35.156Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 2,
+  "fields": {
+    "lost_report": 4,
+    "found_report": 10,
+    "score": 0.18575078377468593,
+    "matched_on": "2026-02-23T17:34:30.351Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 3,
+  "fields": {
+    "lost_report": 8,
+    "found_report": 10,
+    "score": 0.589232586308999,
+    "matched_on": "2026-02-23T17:34:30.395Z",
+    "notified": true,
+    "admin_verified": true
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 4,
+  "fields": {
+    "lost_report": 9,
+    "found_report": 10,
+    "score": 1.0,
+    "matched_on": "2026-02-23T17:34:30.457Z",
+    "notified": true,
+    "admin_verified": true
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 5,
+  "fields": {
+    "lost_report": 4,
+    "found_report": 11,
+    "score": 0.44966565636364836,
+    "matched_on": "2026-02-01T14:06:51.452Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 6,
+  "fields": {
+    "lost_report": 8,
+    "found_report": 11,
+    "score": 0.525190309497437,
+    "matched_on": "2026-02-01T14:06:51.515Z",
+    "notified": true,
+    "admin_verified": true
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 7,
+  "fields": {
+    "lost_report": 12,
+    "found_report": 11,
+    "score": 0.3231950970120851,
+    "matched_on": "2026-02-01T14:06:51.827Z",
+    "notified": true,
+    "admin_verified": true
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 8,
+  "fields": {
+    "lost_report": 12,
+    "found_report": 10,
+    "score": 0.362787068096397,
+    "matched_on": "2026-02-01T14:06:51.786Z",
+    "notified": true,
+    "admin_verified": true
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 9,
+  "fields": {
+    "lost_report": 9,
+    "found_report": 11,
+    "score": 0.7387562770250944,
+    "matched_on": "2026-02-01T14:06:51.635Z",
+    "notified": true,
+    "admin_verified": true
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 10,
+  "fields": {
+    "lost_report": 9,
+    "found_report": 6,
+    "score": 0.16225759365469744,
+    "matched_on": "2026-04-09T16:02:35.219Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 11,
+  "fields": {
+    "lost_report": 13,
+    "found_report": 3,
+    "score": 0.1824542437816731,
+    "matched_on": "2026-02-23T17:30:53.670Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 12,
+  "fields": {
+    "lost_report": 13,
+    "found_report": 6,
+    "score": 0.1824542437816731,
+    "matched_on": "2026-02-23T17:30:53.816Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 13,
+  "fields": {
+    "lost_report": 13,
+    "found_report": 10,
+    "score": 0.2875226993318233,
+    "matched_on": "2026-02-23T17:34:30.573Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 14,
+  "fields": {
+    "lost_report": 4,
+    "found_report": 14,
+    "score": 0.3731393986739288,
+    "matched_on": "2026-02-23T17:38:54.026Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 15,
+  "fields": {
+    "lost_report": 8,
+    "found_report": 14,
+    "score": 0.3281708545868719,
+    "matched_on": "2026-02-23T17:38:54.060Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 16,
+  "fields": {
+    "lost_report": 9,
+    "found_report": 14,
+    "score": 0.5022713652432579,
+    "matched_on": "2026-02-23T17:38:54.112Z",
+    "notified": false,
+    "admin_verified": true
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 17,
+  "fields": {
+    "lost_report": 13,
+    "found_report": 14,
+    "score": 0.23242239837581416,
+    "matched_on": "2026-02-23T17:38:54.227Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 18,
+  "fields": {
+    "lost_report": 15,
+    "found_report": 3,
+    "score": 0.1824542437816731,
+    "matched_on": "2026-03-29T17:31:22.580Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 19,
+  "fields": {
+    "lost_report": 15,
+    "found_report": 6,
+    "score": 0.1824542437816731,
+    "matched_on": "2026-03-29T17:31:22.751Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 20,
+  "fields": {
+    "lost_report": 4,
+    "found_report": 16,
+    "score": 0.29836911262580673,
+    "matched_on": "2026-03-29T17:35:16.245Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 21,
+  "fields": {
+    "lost_report": 9,
+    "found_report": 16,
+    "score": 0.3622315931653568,
+    "matched_on": "2026-03-30T04:57:28.157Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 22,
+  "fields": {
+    "lost_report": 15,
+    "found_report": 16,
+    "score": 0.6487169038110759,
+    "matched_on": "2026-03-29T17:35:16.693Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 23,
+  "fields": {
+    "lost_report": 17,
+    "found_report": 3,
+    "score": 0.01625358382796999,
+    "matched_on": "2026-04-09T16:02:35.486Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 24,
+  "fields": {
+    "lost_report": 17,
+    "found_report": 6,
+    "score": 0.01625358382796999,
+    "matched_on": "2026-04-09T16:02:35.592Z",
+    "notified": false,
+    "admin_verified": false
+  }
+},
+{
+  "model": "ai_matching.petmatch",
+  "pk": 25,
+  "fields": {
+    "lost_report": 17,
+    "found_report": 16,
+    "score": 0.5123431438016307,
+    "matched_on": "2026-03-30T05:53:24.876Z",
+    "notified": false,
+    "admin_verified": false
+  }
+}
+]
